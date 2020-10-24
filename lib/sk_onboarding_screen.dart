@@ -1,5 +1,6 @@
 library sk_onboarding_screen;
 
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:sk_onboarding_screen/sk_onboarding_model.dart';
@@ -160,8 +161,9 @@ class SKOnboardingScreenState extends State<SKOnboardingScreen> {
             ),
           ),
           SizedBox(height: 30.0),
-          Text(
+          AutoSizeText(
             page.title,
+            maxLines: 1,
             style: TextStyle(
               fontWeight: FontWeight.w700,
               color: page.titleColor,
@@ -169,8 +171,9 @@ class SKOnboardingScreenState extends State<SKOnboardingScreen> {
             ),
           ),
           SizedBox(height: 15.0),
-          Text(
+          AutoSizeText(
             page.description,
+            maxLines: 2,
             style: TextStyle(
               fontWeight: FontWeight.w400,
               color: page.descripColor,
