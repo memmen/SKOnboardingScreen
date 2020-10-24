@@ -173,7 +173,7 @@ class SKOnboardingScreenState extends State<SKOnboardingScreen> {
           SizedBox(height: 15.0),
           AutoSizeText(
             page.description,
-            maxLines: 2,
+            maxLines: 1,
             style: TextStyle(
               fontWeight: FontWeight.w400,
               color: page.descripColor,
