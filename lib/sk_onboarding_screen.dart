@@ -85,7 +85,7 @@ class SKOnboardingScreenState extends State<SKOnboardingScreen> {
                         widget.skipClicked("Skip Tapped");
                       },
                       child: Text(
-                        'Skip',
+                        'Login',
                         style: TextStyle(
                           fontWeight: FontWeight.w500,
                           color: Colors.black,
@@ -192,7 +192,7 @@ class SKOnboardingScreenState extends State<SKOnboardingScreen> {
             borderRadius: new BorderRadius.all(Radius.circular(6.0))),
         child: new Center(
           child: new Text(
-            'Get Started',
+            'Sign Up',
             style: new TextStyle(
                 color: Colors.white,
                 fontSize: 20.0,
